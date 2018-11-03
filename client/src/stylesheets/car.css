@@ -1,0 +1,28 @@
+.car-image {
+    background-color: 'lightgrey';
+    margin: 15;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.center-flex {
+    align-content: 'center';
+    display: 'flex';
+    width: 10%;
+    height: 10%;
+    justify-content: 'center';
+}
+
+.car-name {
+    font-size: 15;
+    font-weight: 600;
+}
+
+.card-row {
+    margin: 0;
+}
+
+img {
+    width: 400%;
+    height: auto;
+}

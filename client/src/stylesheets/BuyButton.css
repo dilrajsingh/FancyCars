@@ -1,0 +1,21 @@
+.disabled-button {
+    background: #F5F5F5;
+    color : #C3C3C3;
+    cursor:none;
+    pointer-events: none;
+}
+
+.enabled-button:hover {background-color: #3e8e41}
+
+.enabled-button {
+    padding: 8px 15px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    box-shadow: 0 9px #999;
+  }
+  

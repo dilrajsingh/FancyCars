@@ -1,0 +1,87 @@
+.header {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    height: 300px;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+  
+  .overlay {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.50;
+    z-index: 100;
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .header-text {
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 75px;
+  }
+  
+  #fancy-cars-name {
+    font-size: 100px;
+  }
+
+  .cars-listing-section {
+    padding: 3rem 0;
+    background-color: aliceblue;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+ 
+  
+  @media only screen and (min-width: 576px) {
+    .container {
+      max-width: 576px;
+    }
+  
+
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+
+  }
+  
