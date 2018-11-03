@@ -10,7 +10,7 @@ export const getCars = () => async dispatch => {
 
   try {
    // dispatch({ type: GET_CARS_REQUEST });
-    const res = await axios.get('/api/cars'); // <-- this is a promise
+    const res = await axios.get('/api/cars');
     dispatch({ type: GET_CARS_SUCCESS, payload: res.data });
   } catch (err) {
     dispatch({ type: GET_CARS_FAILURE, payload: err });
