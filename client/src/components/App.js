@@ -14,23 +14,13 @@ class App extends Component {
   }
 
   render() {
-
-    const { error, loading } = this.props; 
-
-    if (error) {
-      return <span>Error! Error Message: {error.message}</span>;
-    }
-  
-    if (loading) {
-      return <span> Loading...</span>;
-    }
     return (
       <div>
-      <Home key="header" />
-      <SortMenu />
-      <div className="row" key="main">
-        <CarList cars={this.props.cars} />
-      </div>
+        <Home />
+        <SortMenu />
+        <div className="row">
+          <CarList cars={this.props.cars} />
+        </div>
       </div>
     );
   }
