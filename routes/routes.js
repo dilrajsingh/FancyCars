@@ -3,7 +3,7 @@ const AvailabilityService = require('../services/AvailabilityService');
 
 module.exports = app => {
   
-  // e.g. localhost:5000/availability/id=1
+  // e.g. localhost:5000/api/availability?id=1
   app.get('/api/availability', (req, res) => {
 
     const id = req.query.id;

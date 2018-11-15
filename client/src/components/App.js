@@ -17,9 +17,8 @@ class App extends Component {
     return (
       <div>
         <Home />
-        <SortMenu />
         <div className="row">
-          <CarList cars={this.props.cars} />
+        <SortMenu /><CarList cars={this.props.cars} />
         </div>
       </div>
     );
