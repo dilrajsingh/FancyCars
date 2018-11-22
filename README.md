@@ -4,25 +4,27 @@
 *****
 ```
 This is a simple application that shows a list of 10 "Fancy Cars" 
-retreived from a mock database that can be sorted based on the "name" or "availability". Depending on the "availability" of the car the button to 
-buy it will be enabled or disabled.
+retreived from a mock database that can be sorted based on the "name" or "availability". 
+Depending on the "availability" of the car the button to buy it will be enabled 
+or disabled.
 
-This demonstrates my skills in 
+Link: https://dilraj-fancy-cars.herokuapp.com/
+
+This project demonstrates my skills in 
 - React Redux-Thunk 
 - Express.js/Node.js
 
 At this time this application has not yet been deployed but should be
 by the end of November! In the mean time feel free to install it.
-Runs on localhost:3000
-Server on localhost:5000 by default.
+- Runs on localhost:3000
+- Server on localhost:5000 by default.
 
 ```
 ## Screenshot
 ---
-Only one image of a car is seen here because the cars are displayed vertically on top of one another.
 ![Screenshot of car](https://raw.githubusercontent.com/dilrajsingh/FancyCars/master/screenshot.jpg)
 
-## Installation
+## Local Installation Instructions
 ---
 ```
 1. npm install
