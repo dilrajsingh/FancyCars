@@ -4,8 +4,10 @@
 *****
 ```
 This is a simple application that shows a list of 10 "Fancy Cars" 
-retreived from a mock database that can be sorted based on the "name" or "availability". Depending on the "availability" of the car the button to 
-buy it will be enabled or disabled.
+retreived from a mock database that can be sorted based on the "name" or "availability". 
+Depending on the "availability" of the car the button to buy it will be enabled or disabled.
+
+Link: Link: https://dilraj-fancy-cars.herokuapp.com/
 
 This demonstrates my skills in 
 - React Redux-Thunk 
