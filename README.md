@@ -8,7 +8,8 @@ retreived from a mock database that can be sorted based on the "name" or "availa
 Depending on the "availability" of the car the button to buy it will be enabled 
 or disabled.
 
-Link: https://dilraj-fancy-cars.herokuapp.com/
+Link: 
+https://dilraj-fancy-cars.herokuapp.com/
 
 This project demonstrates my skills in 
 - React Redux-Thunk 
